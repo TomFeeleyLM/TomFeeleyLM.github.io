@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Liberty Mutual Quote</title>
+	<!--#include virtual="/views/ssi/head-matter.html" -->
+</head>
+
+<body>
+
+<div class="page layout-wide interview-onepage">
+
+<div class="header" role="banner">
+	<div class="masthead">
+		<div class="logo">
+			<a href="/"><img src="/assets/img/logo-lm.png" alt="Liberty Mutual Insurance"></a>
+		</div>
+		<div class="single-price">
+			<div class="qps-opt">
+				<div class="qps-opt-price"><sup>$</sup><b data-rate-value>1999</b>/month</div>
+				<p class="qps-opt-due"><b class="qps-opt-due-amt"><span>$</span><b data-rate-value>999</b></b> due today</p>
+				<p class="qps-opt-guarantee">Your premium is guaranteed for <span>12 months ($<span data-rate-value-year>1,440</span>/Year)</span></p>
+			</div>
+		</div>
+		<div class="help">
+			<a href="#help-center" class="icon icon-help-center"><span class="more">How can we </span>help<span class="more"> you?</span></a>
+		</div>
+	</div>
+</div><!-- /header -->
+
+<div class="content">
+	<div class="content-body">
+
+		<div class="pg-intro">
+			<p>For a personalized quote, tell us a bit more about you:</p>
+			<p><a href="#">Already have Liberty Mutual insurance?</a></p>
+		</div>
+
+		<form>
+			<div class="form-wrapper">
+
+				<div class="interview-block">
+					<div class="section-header collapsible collapsible-collapsed">
+						<h2 class="collapsible-header pg-title"><i class="icon-arrow-solid-right"></i> Vehicle details</h2>
+						<i class="icon icon-auto"></i>
+						<div class="collapsible-content collapsible-collapsed">
+							<ul class="section-summary">
+								<li>2015 Subaru Forrester AWD Sport Wagon</li>
+								<li>Personal use</li>
+								<li>Own (Financed)</li>
+								<li>12,000mi/yr</li>
+							</ul>
+						</div>
+					</div><!-- /header -->
+					<div class="form-group">
+						<div class="form-question">
+							<label class="select">
+								<span class="label">
+									<span class="label-text">Purchased</span>
+								</span>
+								<span class="field">
+									<select class="char-4">
+										<option disabled selected>Year</option>
+										<option data-disclosure="new-used">2016</option>
+										<option data-disclosure="new-used">2015</option>
+										<option data-disclosure="new-used">2014</option>
+										<option>2013</option>
+										<option>2012</option>
+										<option>2011</option>
+										<option>2010</option>
+										<option>1981</option>
+									</select>
+
+									<!-- If purchased in last 2 years -->
+									<span class="disclosure disclosure-inline hidden" data-disclosure-content="new-used">
+										<span class="check-radio-set inline button">
+											<label class="radio btn">
+												<input type="radio" value="new" name="interview-newused">
+												<span class="opt">New</span>
+											</label>
+											<label class="radio btn">
+												<input type="radio" value="used" name="interview-newused">
+												<span class="opt">Used</span>
+											</label>
+										</span>
+									</span>
+								</span><!-- /field -->
+							</label>
+						</div>
+
+						<div class="form-question">
+							<label class="textinput">
+								<span class="label">
+									<span class="label-text">Garaged at</span>
+								</span>
+								<span class="field group-inline street-address">
+									<span class="field-mssg-invalid">Error message goes here and can wrap to multi lines if needed.</span>
+									<span class="group-section-a invalid">
+										<span class="a11y-only">Street address</span>
+										<input type="text" placeholder="Street address">
+									</span>
+
+									<span class="group-section-b">
+										<span class="a11y-only">Zip code</span>
+										<input type="number" inputmode="numeric" pattern="[0-9]*" max="99999" placeholder="00000" data-numeric-input>
+									</span>
+
+									<span class="group-section-c">
+										<span class="a11y-only">City</span>
+										<input type="text" placeholder="City">
+										<span class="read-only">MA</span>
+									</span>
+								</span>
+							</label>
+						</div>
+
+						<div class="form-question">
+							<div class="check-radio">
+								<h4 class="label">
+									<span class="label-text">Vehicle features</span>
+									<span class="label-instruct text-discount">Discount opportunity!</span>
+								</h4>
+
+								<div class="field group-inline resource-features">
+									<div class="check-radio-set group-section-a">
+										<h4 class="field-subtitle">Safety Equipment</h4>
+
+										<div class="checkbox check-read-only">
+											<i class="icon icon-checked-option"></i>
+											<span class="opt">
+												<span class="opt-included">Included:</span>
+												Airbags <span class="opt-desc">Full, side, rear</span>
+											</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</div>
+										<label class="checkbox checkbox-conditional">
+											<input type="checkbox" name="safety-1" id="safety-2">
+											<span class="opt">Anti-Lock Brakes</span>
+											<!-- if checked, choose an option: -->
+											<span class="opt-other hidden">
+												<select data-custom-style data-rate-dep="invert">
+													<option>2-wheel system</option>
+													<option selected>4-wheel system</option>
+												</select>
+											</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+										<label class="checkbox">
+											<input type="checkbox" name="safety-1" id="safety-3">
+											<span class="opt">Electronic Stability Control</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+										<label class="checkbox">
+											<input type="checkbox" name="safety-1" id="safety-4">
+											<span class="opt">Adaptive Cruise Control</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+										<label class="checkbox">
+											<input type="checkbox" name="safety-1" id="safety-5">
+											<span class="opt">Blind Spot Warning</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+
+										<p><a href="#" class="qps-more-info" data-view-all="addl-coverage-help" data-view-all-contain="check-radio-set" data-view-all-toggle="Hide help">Help me decide...</a></p>
+									</div>
+
+									<div class="check-radio-set group-section-b">
+										<h4 class="field-subtitle">Anti-Theft Devices</h4>
+
+										<label class="checkbox">
+											<input type="checkbox" name="antitheft-2" id="antitheft-2">
+											<span class="opt">Automatic Disabling <span class="opt-desc">electronic key</span></span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+										<label class="checkbox">
+											<input type="checkbox" name="antitheft-3" id="antitheft-3">
+											<span class="opt">Manual Disabling</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+										<label class="checkbox">
+											<input type="checkbox" name="antitheft-4" id="antitheft-4">
+											<span class="opt">Vehicle Recovery Device <span class="opt-desc">Lojack</span></span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</label>
+										<div class="checkbox check-read-only">
+											<i class="icon icon-checked-option"></i>
+											<span class="opt">
+												<span class="opt-included">Included:</span> Audible Alarm
+											</span>
+											<span class="opt-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+										</div>
+
+										<p><a href="#" class="qps-more-info" data-view-all="addl-coverage-help" data-view-all-contain="check-radio-set" data-view-all-toggle="Hide help">Help me decide...</a></p>
+									</div>
+								</div><!-- /field -->
+							</div>
+						</div><!-- /question -->
+					</div>
+				</div><!-- /block -->
+
+				<div class="interview-block">
+					<div class="section-header">
+						<h2 class="pg-title">Driving &amp; insurance</h2>
+						<i class="icon icon-driving"></i>
+					</div>
+					<div class="form-group">
+						<div class="form-question">
+							<label class="textinput">
+								<span class="label">
+									<span class="label-text">Age first licensed</span>
+								</span>
+								<span class="field field-inline">
+									<input type="number" class="char-2" inputmode="numeric" pattern="[0-9]*" max="99" value="16" data-numeric-input>
+									years old
+								</span>
+							</label>
+						</div>
+
+						<div class="form-question">
+							<label class="select">
+								<span class="label">
+									<span class="label-text">Currently insured?</span>
+								</span>
+								<span class="field">
+									<select>
+										<option disabled selected> -- </option>
+										<option data-disclosure="other-insurance">Yes, I'm insured with another company</option>
+										<option data-disclosure="other-insurance">Yes, I'm insured on someone else's policy</option>
+										<option>No, my insurance has expired or been cancelled</option>
+										<option>No, other reason (new driver, military, etc.)</option>
+									</select>
+								</span>
+							</label>
+						</div>
+
+						<div class="form-question disclosure hidden" data-disclosure-content="other-insurance">
+							<label class="select">
+								<span class="label">
+									<span class="label-text">Current insurer</span>
+								</span>
+								<span class="field">
+									<select class="char-16">
+										<option disabled selected> -- </option>
+										<option>Geico</option>
+										<option>Progressive</option>
+									</select>
+
+									<span class="field-inline">
+										for the last
+										<select class="char-4">
+											<option disabled selected> -- </option>
+											<option>5-9</option>
+										</select>
+										years
+									</span>
+								</span>
+							</label>
+
+							<label class="select">
+								<span class="label">
+									<span class="label-text">Current Bodily Injury limit</span>
+								</span>
+								<span class="field">
+									<select>
+										<option disabled selected> -- </option>
+										<option>$15,000/person $30,000/accident</option>
+										<option>$25,000/person $50,000/accident</option>
+										<option>$50,000/person $100,000/accident</option>
+										<option>$100,000/person $300,000/accident</option>
+										<option>$250,000/person $500,000/accident</option>
+										<option data-disclosure="bi-unsure">Not sure</option>
+									</select>
+								</span>
+							</label>
+
+							<label class="select disclosure hidden" data-disclosure-content="bi-unsure">
+								<span class="label">
+									<span class="label-text">Choose a BI Limit for this quote</span>
+								</span>
+								<span class="field">
+									<select>
+										<option disabled selected> -- </option>
+										<option>$15,000/person $30,000/accident</option>
+										<option>$25,000/person $50,000/accident</option>
+										<option>$50,000/person $100,000/accident</option>
+										<option>$100,000/person $300,000/accident</option>
+										<option>$250,000/person $500,000/accident</option>
+									</select>
+								</span>
+							</label>
+						</div><!-- /form-question -->
+
+						<div class="form-question">
+							<div class="check-radio">
+								<span class="label">
+									<span class="label-text">Violations, accidents, or claims?</span>
+									<span class="label-instruct">In the last 5 years?</span>
+								</span>
+								<span class="field invalid">
+									<span class="field-mssg-invalid">Error message goes here and can wrap to multi lines if needed.</span>
+									<div class="check-radio-set inline button">
+										<label class="radio btn">
+											<input type="radio" value="no" name="interview-incidents">
+											<span class="opt">No</span>
+										</label>
+										<label class="radio btn">
+											<input type="radio" value="yes" name="interview-incidents" data-disclosure="onepage-incidents">
+											<span class="opt">Yes</span>
+										</label>
+									</div>
+								</span>
+							</div>
+						</div>
+
+						<div class="form-group disclosure hidden onepage-incidents" data-disclosure-content="onepage-incidents">
+							<div class="resources resource-table">
+								<div class="resource-table-headers">
+									<div class="resource-table-a">Date</div>
+									<div class="resource-table-b">Was there a violation?</div>
+									<div class="resource-table-c">Was there an accident or claim?</div>
+								</div>
+
+								<div class="resource">
+									<div class="resource-header">
+										<h3 class="resource-title"><strong class="extra">Incident </strong>1</h3>
+										<!-- No delete allowed on first incident; user has to select 'no' incidents above.
+										<span class="resource-actions">
+											<a href="#" class="resource-delete"><span>Delete</span> <i class="icon icon-x-1"></i></a>
+										</span>	 -->
+									</div><!-- /header -->
+									<div class="resource-form">
+										<div class="form-question resource-table-row">
+											<div class="select resource-table-a">
+												<h4 class="label">
+													<span class="label-text">Date</span>
+												</h4>
+												<div class="field group-inline joined month-year">
+													<label class="group-section-a">
+														<span class="a11y-only">Month</span>
+														<select required>
+															<option value disabled selected>Month</option>
+															<option value="1">1 - January</option>
+															<option value="2">2 - February</option>
+															<option value="3">3 - March</option>
+															<option value="4">4 - April</option>
+															<option value="5">5 - May</option>
+															<option value="6">6 - June</option>
+															<option value="7">7 - July</option>
+															<option value="8">8 - August</option>
+															<option value="9">9 - September</option>
+															<option value="10">10 - October</option>
+															<option value="11">11 - November</option>
+															<option value="12">12 - December</option>
+														</select>
+													</label>
+													<label class="group-section-b">
+														<span class="a11y-only">Year</span>
+														<select required>
+															<option value disabled selected>Year</option>
+															<option>2016</option>
+															<option>2015</option>
+															<option>2014</option>
+															<option>2013</option>
+															<option>2012</option>
+															<option>2011</option>
+														</select>
+													</label>
+												</div>
+											</div>
+
+											<label class="select resource-table-b">
+												<span class="label">
+													<span class="label-text">Was there a violation?</span>
+												</span>
+												<span class="field">
+													<select>
+														<option disabled selected>Violation?</option>
+														<optgroup label="Violation?">
+															<option>No violation</option>
+														</optgroup>
+
+														<optgroup label="If yes, please specify:">
+															<option>Major Violation (Suspended/Revoked, Fleeing, Manslaughter, etc.)</option>
+															<option>Moving Violation (Failure to yield/use headlights, right of way, etc.)</option>
+															<option>Passing Stopped School Bus</option>
+															<option>Speeding (1-25 MPH over limit)</option>
+															<option>Speeding (26+ MPH over limit)</option>
+															<option>Use of Motor Vehicle in a Felony</option>
+															<option>Driving Under the Influence</option>
+														</optgroup>
+													</select>
+												</span>
+											</label>
+
+											<label class="select resource-table-c">
+												<span class="label">
+													<span class="label-text">Was there an accident or claim?</span>
+												</span>
+												<span class="field">
+													<select>
+														<option disabled selected>Accident or claim?</option>
+														<optgroup label="Accident or claim?">
+															<option>No accident or claim</option>
+														</optgroup>
+
+														<optgroup label="Accident">
+															<option data-disclosure="accidents">Head-on collision</option>
+															<option data-disclosure="accidents">Hit a parked car</option>
+															<option data-disclosure="accidents">Hit a pedestrian/cyclist</option>
+															<option data-disclosure="accidents">Hit a stationary object (exclude a parked car)</option>
+															<option data-disclosure="accidents">Hit another vehicle in rear</option>
+															<option data-disclosure="accidents">Hit another vehicle while backing up</option>
+															<option data-disclosure="accidents">Hit while merging/sideswiped</option>
+															<option data-disclosure="claims">Hit an animal</option><!-- claim -->
+															<option data-disclosure="accidents">Intersection Accident</option>
+															<option data-disclosure="accidents">Jacknife accident</option>
+															<option data-disclosure="accidents">Vehicle damaged while loading cargo</option>
+															<option data-disclosure="accidents">Your vehicle hit in rear</option>
+															<option data-disclosure="accidents">Your vehicle hit while parked</option>
+															<option data-disclosure="accidents">Your vehicle hit while pulling from parked position</option>
+															<option data-disclosure="accidents">Your vehicle overturned</option>
+															<option data-disclosure="accidents">Other Accident</option>
+														</optgroup>
+
+														<optgroup label="Claim">
+															<option data-disclosure="claims">Windshield or Glass Damage</option>
+															<option data-disclosure="claims">Towing and Labor</option>
+															<option data-disclosure="claims">Other Claims (Theft, Fire, Vandalism, etc.)</option>
+														</optgroup>
+													</select>
+												</span>
+											</label>
+										</div><!-- /form-question -->
+
+										<div class="form-question disclosure hidden resource-table-row" data-disclosure-content="accidents">
+											<div class="select">
+												<span class="label">
+													<span class="label-text">Tell us about your accident...</span>
+												</span>
+												<span class="field">
+													<label class="resource-table-a">
+														<span class="a11y-only">Damage to your vehicle?</span>
+														<select>
+															<option disabled selected>Damage to your vehicle?</option>
+															<option>No Damage</option>
+															<option>Yes, $750 or less</option>
+															<option>Yes, above $750</option>
+														</select>
+													</label>
+
+													<label class="resource-table-b">
+														<span class="a11y-only">Or to someone else's property?</span>
+														<select>
+															<option disabled selected>Or to someone else's property?</option>
+															<option>No Damage</option>
+															<option>Yes, $750 or less</option>
+															<option>Yes, above $750</option>
+														</select>
+													</label>
+
+													<label class="resource-table-c">
+														<span class="a11y-only">Injuries to other people?</span>
+														<select>
+															<option disabled selected>Injuries to other people?</option>
+															<option>No</option>
+															<option>Yes</option>
+														</select>
+													</label>
+												</span>
+											</div>
+										</div>
+
+										<div class="form-question disclosure hidden resource-table-row" data-disclosure-content="claims">
+											<div class="select">
+												<span class="label">
+													<span class="label-text">Tell us about your claim...</span>
+												</span>
+												<span class="field">
+													<label class="resource-table-a">
+														<span class="a11y-only">Did your insurance company pay?</span>
+														<select>
+															<option disabled selected>Did your insurance company pay?</option>
+															<option>No, no damage</option>
+															<option>Yes, $600 or less</option>
+															<option>Yes, above $600</option>
+														</select>
+													</label>
+												</span>
+											</div>
+										</div>
+									</div><!-- resource-form -->
+
+									<div class="resource-edit-confirm hidden">
+										<a href="#" class="btn btn-sml resource-edit-cancel">Cancel</a>
+										<a href="#" class="btn btn-action-final btn-sml resource-remove">Remove</a>
+									</div>
+								</div><!-- /resource -->
+
+								<div class="resources-footer">
+									<a href="pod-interview-onepage-snippet.html" class="resource-add" data-ajax-example data-ajax-example-before><i class="icon icon-plus"></i>Add Another Incident...</a>
+								</div>
+							</div><!-- /resources -->
+
+							<div class="form-question" id="sr-22">
+								<div class="field">
+									<label class="checkbox">
+										<input type="checkbox" name="sr22" id="sr22">
+										<span class="opt">This quote requires a SR-22 form. <a href="#" data-view-all="sr-22">What's this?</a></span>
+										<span class="label-instruct">SR-22 is a required state form, for individuals who have been convicted of certain traffic violations, to show proof of financial responsibility. Common reasons include a DUI or driving with a suspended license.</span>
+									</label>
+								</div>
+							</div>
+						</div><!-- /incidents -->
+
+					</div><!-- /form-group -->
+				</div><!-- /block -->
+
+				<div class="interview-block">
+					<div class="section-header collapsible collapsible-collapsed">
+						<h2 class="collapsible-header pg-title"><i class="icon-arrow-solid-right"></i> About you</h2>
+						<i class="icon icon-person"></i>
+						<div class="collapsible-content collapsible-collapsed">
+							<ul class="section-summary">
+								<li>Female</li>
+								<li>Married</li>
+							</ul>
+						</div>
+					</div><!-- /header -->
+					<div class="form-group">
+						<div class="form-question">
+							<p>By continuing, you acknowledge you have reviewed our <a href="#dialog-disclosure">information disclosure</a>.</p>
+						</div>
+						<div class="form-question">
+							<div class="textinput">
+								<h4 class="label">
+									<span class="label-text">Full name</span>
+								</h4>
+								<div class="field group-inline full-name">
+									<label class="group-section-a">
+										<span class="a11y-only">First name</span>
+										<input type="text" placeholder="First name">
+									</label>
+									<label class="group-section-b">
+										<span class="a11y-only">Middle initial</span>
+										<input type="text" class="char-2" placeholder="M.I.">
+									</label>
+									<label class="group-section-c">
+										<span class="a11y-only">Last name</span>
+										<input type="text" placeholder="Last name">
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-question">
+							<label class="textinput">
+								<span class="label">
+									<span class="label-text">Email</span>
+								</span>
+								<span class="field">
+									<textarea maxlength="60">hello@filamentgroup.com</textarea>
+								</span>
+							</label>
+						</div>
+
+						<div class="form-question">
+							<div class="textinput">
+								<h4 class="label">
+									<span class="label-text">Date of birth</span>
+								</h4>
+								<div class="field group-inline">
+									<label class="group-section-a">
+										<span class="a11y-only">Month</span>
+										<select required class="char-10">
+											<option value disabled selected>Month</option>
+											<option value="1">January</option>
+											<option value="2">February</option>
+											<option value="3">March</option>
+											<option value="4">April</option>
+											<option value="5">May</option>
+											<option value="6">June</option>
+											<option value="7">July</option>
+											<option value="8">August</option>
+											<option value="9">September</option>
+											<option value="10">October</option>
+											<option value="11">November</option>
+											<option value="12">December</option>
+										</select>
+									</label>
+									<label class="group-section-b">
+										<span class="a11y-only">Day</span>
+										<input type="number" class="char-2" inputmode="numeric" pattern="[0-9]*" min="1" max="31" maxlength="2" placeholder="DD" name="day" data-numeric-input>
+									</label>
+									<div class="group-section-c">
+										<span class="a11y-only">Year</span>
+										<span class="read-only">1977</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-question">
+							<div class="check-radio">
+								<h4 class="label">
+									<span class="label-text">Home address</span>
+								</h4>
+								<div class="field">
+									<div class="check-radio-set">
+										<label class="checkbox">
+											<input type="checkbox" name="same-address" id="same-address" checked data-disclosure="not-same-address" data-disclosure-reverse>
+											<span class="opt">Same as my vehicle address <span class="opt-desc">102 South Street #3, Boston MA 02111</span></span>
+										</label>
+									</div>
+
+									<div class="group-inline disclosure street-address" data-disclosure-content="not-same-address">
+										<span class="group-section-a">
+											<span class="a11y-only">Street address</span>
+											<input type="text" placeholder="Street address">
+										</span>
+
+										<span class="group-section-b">
+											<span class="a11y-only">Zip code</span>
+											<input type="number" inputmode="numeric" pattern="[0-9]*" max="99999" placeholder="00000" data-numeric-input>
+										</span>
+
+										<span class="group-section-c">
+											<span class="a11y-only">City</span>
+											<input type="text" placeholder="City">
+											<span class="read-only">MA</span>
+										</span>
+									</div>
+								</div><!-- /field -->
+							</div>
+						</div>
+
+						<div class="form-question">
+							<div class="select">
+								<span class="label">
+									<span class="label-text">More about you...</span>
+								</span>
+								<span class="field">
+									<label class="resource-table-a">
+										<span class="a11y-only">Employment</span>
+										<select>
+											<option disabled selected>Employment...</option>
+											<option>Employed</option>
+											<option>Homemaker</option>
+											<option>Full-time student</option>
+											<option>Retired</option>
+											<option>Not working/disabled</option>
+										</select>
+									</label>
+
+									<label class="resource-table-b">
+										<span class="a11y-only">Education</span>
+										<select>
+											<option disabled selected>Education...</option>
+											<option>No High School Diploma or GED</option>
+											<option>High School Diploma or GED</option>
+											<option>Vocation/Trade Degree/Military Training</option>
+											<option>Currently in College</option>
+											<option>Completed some college</option>
+											<option>College degree</option>
+											<option>Graduate work or Graduate Degree</option>
+										</select>
+									</label>
+
+									<label class="resource-table-c">
+										<span class="a11y-only">Homeownership</span>
+										<select>
+											<option disabled selected>Homeownership...</option>
+											<option>I own my home/condo</option>
+											<option>I own a mobile home</option>
+											<option>I rent</option>
+											<option>Other</option>
+										</select>
+									</label>
+								</span>
+							</div>
+						</div>
+
+						<div class="form-question">
+							<label class="textinput">
+								<span class="label">
+									<span class="label-optional">Optional:</span>
+									<span class="label-text">Social Security Number</span>
+									<span class="label-instruct">Used for a more accurate quote. Your data is <a href="#dialog-ssn-safe">safe with us</a>.</span>
+								</span>
+								<span class="field">
+									<input type="number" class="char-12" inputmode="numeric" pattern="[0-9]*" placeholder="000 00 0000" data-numeric-input>
+								</span>
+							</label>
+						</div>
+
+
+					</div><!-- /form-group -->
+				</div><!-- /block -->
+
+				<div class="interview-block interview-discounts">
+					<div class="section-header">
+						<h2 class="pg-title">Discounts</h2>
+						<i class="icon icon-save"></i>
+					</div>
+					<div class="form-group">
+						<div class="form-question">
+							<div class="check-radio">
+								<h4 class="form-title text-discount">Check all discounts that apply and save!</h4>
+								<div class="check-radio-set">
+									<label class="checkbox">
+										<input type="checkbox" name="discounts-student" id="discounts-student">
+										<span class="opt">Good Student <span class="opt-desc">Current full-time student with B grade average or better</span></span>
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="discounts-grad" id="discounts-grad">
+										<span class="opt">Recent College Grad <span class="opt-desc">Received any higher education degree within the last 12 months</span></span>
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="discounts-newlywed" id="discounts-newlywed">
+										<span class="opt">Newlywed <span class="opt-desc">Celebrated marriage or civil union within the last 12 months</span></span>
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="discounts-retiree" id="discounts-retiree">
+										<span class="opt">Recent Retiree <span class="opt-desc">Retired in the last 12 months</span></span>
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="discounts-dd" id="discounts-dd">
+										<span class="opt">Defensive Driver <span class="opt-desc">Completed a State approved course in the past 3 years</span></span>
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="discounts-military" id="discounts-military">
+										<span class="opt">Military Service <span class="opt-desc">Active duty or veteran</span></span>
+									</label>
+								</div>
+							</div>
+						</div><!-- /question -->
+					</div>
+				</div><!-- /block -->
+
+				<div class="interview-block interview-righttrack">
+					<div class="section-header">
+						<h2 class="pg-title"><img src="/assets/img/logo-righttrack-rev.png" alt="RightTrack"></h2>
+						<div class="section-header-actions"><a href="#dialog-righttrack" class="play-video"><span class="a11y-only">Video: How RightTrack works</span></a></div>
+					</div>
+					<div class="form-group">
+						<div class="form-question form-question-righttrack">
+							<div class="check-radio-set">
+								<label class="radio">
+									<input type="radio" name="location" id="opt-vehicle-ymm">
+									<span class="opt"><strong>Enroll in RightTrack - it's 100% free</strong> <span class="opt-desc">Save 5% now and up to 30% for safe driving</span></span>
+								</label>
+								<label class="radio">
+									<input type="radio" name="location" id="opt-vehicle-vin">
+									<span class="opt">No thanks <span class="opt-desc">I don't want to save on my premium</span></span>
+								</label>
+
+								<p><a href="#dialog-righttrack">Video: How RightTrack works</a> | <a href="#">Terms &amp; conditions</a></p>
+							</div>
+
+							<div class="tabs">
+								<div class="collapsible" data-collapsible-set="tabs-righttrack">
+									<h4 class="collapsible-header"><i class="icon icon-plug"></i> Connect</h4>
+									<div class="collapsible-content">
+										<p>Save 5% when you enroll. Simply plug our device into your car. The program is 100% free and will never increase your premium.</p>
+									</div>
+								</div>
+								<div class="collapsible collapsible-collapsed" data-collapsible-set="tabs-righttrack">
+									<h4 class="collapsible-header"><i class="icon icon-auto-white"></i> Drive</h4>
+									<div class="collapsible-content">
+										<p>We'll monitor how safely you drive by tracking things like braking, acceleration, miles driven and time of day.</p>
+									</div>
+								</div>
+								<div class="collapsible collapsible-collapsed" data-collapsible-set="tabs-righttrack">
+									<h4 class="collapsible-header"><i class="icon icon-save-tag"></i> Save</h4>
+									<div class="collapsible-content">
+										<p>Drive for 90 days and earn up to 30% off your premium for the life of your policy.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /block -->
+
+				<div class="form-submit">
+					<p><strong>That's it, you're done!</strong></p>
+					<a href="#" class="btn btn-primary btn-lrg">Generate My Quote <i class="icon icon-arrow-right"></i></a>
+				</div>
+
+			</div><!-- /form-wrapper -->
+		</form>
+	</div>
+
+</div><!-- /content -->
+
+<div class="footer">
+	<!--#include virtual="ssi/footer-navigation.html" -->
+</div><!-- /footer -->
+
+<div class="dialog dialog-wide" id="dialog-righttrack">
+	<div class="dialog-header">
+		<h3 class="dialog-title">How RightTrack Works</h3>
+	</div>
+	<div class="dialog-body">
+		<div class="form-video">
+			<video controls="controls" class="blog-video" preload="none" name="right-tracks-works-new" poster="https://www.libertymutual.com/insurance-content/media/video/generic-shim.jpg?v=2015110416030883">
+				<source type="video/mp4" src="https://www.libertymutual.com/insurance-content/media/video/right-track/right-tracks-works-new.mp4?v=2015110416034243">
+				<source type="video/ogg" src="https://www.libertymutual.com/insurance-content/media/video/right-track/right-tracks-works-new.ogv?v=2015110416032415">
+				<source type="video/webm" src="https://www.libertymutual.com/insurance-content/media/video/right-track/right-tracks-works-new.webm?v=2015110416035836">
+			</video>
+		</div>
+
+		<div class="form-diagram">
+			<div class="form-diagram-items">
+				<div class="form-diagram-item">
+					<h4 class="form-diagram-item-title"><i class="icon icon-plug"></i>Connect</h4>
+					<div class="form-diagram-item-content">
+						<p>Save 5% when you enroll. Simply plug our device into your car and the program is 100% free.</p>
+					</div>
+				</div>
+
+				<div class="form-diagram-item">
+					<h4 class="form-diagram-item-title"><i class="icon icon-auto-white"></i>Drive</h4>
+					<div class="form-diagram-item-content">
+						<p>We'll monitor how safely you drive by tracking things like braking, acceleration, miles driven and time of day.</p>
+					</div>
+				</div>
+
+				<div class="form-diagram-item">
+					<h4 class="form-diagram-item-title"><i class="icon icon-save-tag"></i>Save</h4>
+					<div class="form-diagram-item-content">
+						<p>Drive for 90 days and earn up to 30% off your premium for the life of your policy.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" class="dialog-close icon-x">Close</a>
+</div>
+
+<div class="dialog" id="dialog-ssn-safe">
+	<div class="dialog-header">
+		<h3 class="dialog-title">Your data is safe with us.</h3>
+	</div>
+	<div class="dialog-body">
+		<p>Social Security Number is optional but recommended for the most accurate quote.</p>
+		<p>Your SSN is used, where permitted by law, to verify your credit-based insurance score.</p>
+		<ul>
+			<li>Most insurance companies collect this information</li>
+			<li>Your credit rating will not be affected</li>
+		</ul>
+	</div>
+	<a href="#" class="dialog-close icon-x">Close</a>
+</div>
+
+<div class="dialog dialog-wide" id="dialog-disclosure">
+	<div class="dialog-header">
+		<h3 class="dialog-title">Our Information Disclosure</h3>
+	</div>
+	<div class="dialog-body">
+		<p>Liberty Mutual Insurance - Information Disclosure</p>
+		<p>We access consumer report information such as claims histories, driving records, and credit-based insurance scores where permitted by law to determine the price you pay for insurance coverage. We may also use this information to provide you with a quote for another line of personal insurance during the auto quote process if requested.</p>
+		<p>Your insurance score uses information from your credit report to help predict how often you're likely to file a claim, and how expensive those claims will be. When we access your credit-based insurance score, it has no impact on your credit rating.</p>
+		<p>Both your Social Security Number and insurance score are kept confidential and secure, and will not be resold or redistributed.</p>
+		<p>We may also submit to an authorized third party to obtain and pre-fill information about your vehicle(s), and prior insurance coverage for you to confirm when you complete the quote request application.</p>
+	</div>
+	<a href="#" class="dialog-close icon-x">Close</a>
+</div>
+
+</div><!-- /page -->
+
+<!--#include virtual="/views/ssi/help-center-default.html" -->
+
+</body>
+</html>
