@@ -8,7 +8,7 @@ Politely add spaces to input values to increase readability (credit card numbers
 
 
 
-@media (max-width:60em) {
+@media (max-width:160em) {
   .interview-onepage .form-question.disclosure .char-16 {
     display: block;
     max-width: 100%;
@@ -20,10 +20,7 @@ Politely add spaces to input values to increase readability (credit card numbers
     width: 100%;
   }
 
-  .interview-onepage .section-header.collapsible-collapsed > .collapsible-content {
-
-  }
-  .interview-onepage .section-header.collapsible-collapsed .section-summary {
-
+  .interview-onepage .section-header, .interview-onepage .icon {
+    display: block;
   }
  }
