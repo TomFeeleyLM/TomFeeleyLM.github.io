@@ -13,7 +13,6 @@ Politely add spaces to input values to increase readability (credit card numbers
     display: block;
     max-width: 100%;
     width: 100%;
-    margin-bottom: 100px;
   }
   .interview-onepage .form-question.disclosure .char-16 + .field-inline {
     display: block;
