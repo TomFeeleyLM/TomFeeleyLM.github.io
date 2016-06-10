@@ -19,8 +19,7 @@ Politely add spaces to input values to increase readability (credit card numbers
     max-width: 100%;
     width: 100%;
   }
-  .interview-onepage .section-header.collapsible-collapsed > .collapsible-content {
-    transform: none;
-    margin: 2em 0 0;
+  .interview-onepage .section-header.collapsible-collapsed .section-summary {
+    margin-top: 2.4em;
   }
  }
