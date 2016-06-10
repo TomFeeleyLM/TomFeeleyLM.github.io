@@ -21,9 +21,7 @@ Politely add spaces to input values to increase readability (credit card numbers
   }
 
   .interview-onepage .section-header.collapsible-collapsed > .collapsible-content {
-    transform: none;
-    position: relative;
-    margin-top: 2.4em;
+
   }
   .interview-onepage .section-header.collapsible-collapsed .section-summary {
 
