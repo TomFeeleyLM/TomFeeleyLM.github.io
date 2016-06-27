@@ -56,11 +56,12 @@
 			<div class="textinput">
 				<div class="field group-inline">
 					<label class="group-section-a">
-						<span class="a11y-only">Day</span>
-						<input class="char-4" inputmode="numeric" pattern="[0-9]*" min="1" max="4" maxlength="4" placeholder="$0.00" name="amount" data-numeric-input type="number">
+						<span class="a11y-only">Amount</span>
+						<span class="field-currency" style="margin-left:0;">$</span>
+						<input class="char-4" inputmode="numeric" pattern="[0-9]*" min="1" max="4" maxlength="4" placeholder="" name="amount" data-numeric-input type="number">
 					</label>
 					<label class="group-section-b">
-						<span class="a11y-only">Month</span>
+						<span class="a11y-only">Payment Frequency</span>
 						<select required>
 							<option value="1">Per Month</option>
 							<option value="2">Paid in Full</option>
@@ -70,14 +71,15 @@
 			</div>
 		</div>
 
-		<a href="#" class="btn btn-primary btn-lrg">Get your Quote</a>
+		<a href="#" class="btn btn-primary">Get your Quote</a>
+		<a href="#" class="btn">No, thank you</a>
 
 	</div>
 
 </div><!-- /content -->
 
 <div class="footer">
-	
+
 <div class="footer-nav" role="navigation">
  <!-- <div class="affiliate">
     <p>Liberty Mutual Insurance is proud to partner with...</p>
